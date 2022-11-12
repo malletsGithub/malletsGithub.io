@@ -1,138 +1,519 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="zxx">
   <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Mallets</title>
-    <!-- 
-
-Get Ready Template
-
-http://www.templatemo.com/tm-521-get-ready
-
--->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="team" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
     />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/vegas.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/slicknav.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <!-- PRE LOADER -->
-    <section class="preloader">
-      <div class="spinner">
-        <span class="spinner-rotate"></span>
-      </div>
-    </section>
 
-    <!-- GRID LINE -->
-    <section class="grid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-sm-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-sm-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-sm-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-sm-2">
-            <div class="grid-line"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <div class="menu-bg"></div> -->
-    <!-- <div class="menu-burger">☰</div> -->
-
-    <div class="menu-items">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-4 col-sm-6">
-            <h1>Navigations</h1>
-            <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Our Studio</a></li>
-              <li><a href="#">Journal</a></li>
-              <li><a href="#">Start a project</a></li>
-              <li><a href="#">Email Us</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-sm-6">
-            <address>
-              <h1>Our Studio</h1>
-              <p>
-                1234 New Street View, <br />
-                Kumasi, Ghana
-              </p>
-              <div class="google-map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </address>
-          </div>
-
-          <div class="col-md-12 col-sm-12">
-            <ul class="social-icon">
-              <li class="line"></li>
-              <li>
-                <a href="https://fb.com/templatemo" class="fa fa-facebook"></a>
-              </li>
-              <li><a href="#" class="fa fa-twitter"></a></li>
-              <li>
-                <a
-                  href="https://plus.google.com/+templatemo"
-                  class="fa fa-google"
-                ></a>
-              </li>
-              <li><a href="#" class="fa fa-instagram"></a></li>
-            </ul>
+  <body class="body-bg">
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo/loder.jpg" alt="" width="122px" />
           </div>
         </div>
       </div>
     </div>
-
-    <!-- HOME -->
-    <section id="home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="home-info">
-              <img src="images/logo_gold.png" alt="" width="15%" />
-              <h1>We are getting ready <br />to launch new CREATIVE site!</h1>
-
-              <div class="subscribe-form"></div>
+    <header>
+      <!-- Header Start -->
+      <div class="header-area header-transparent">
+        <div class="main-header header-sticky">
+          <div class="container-fluid">
+            <div
+              class="menu-wrapper d-flex align-items-center justify-content-between"
+            >
+              <!-- Logo -->
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="assets/img/logo/logo.png" alt="" width="122px"
+                /></a>
+              </div>
+              <!-- Main-menu -->
+              <div class="main-menu f-right d-none d-lg-block">
+                <nav>
+                  <ul id="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <!-- <li>
+                      <a href="blog.html">Blog</a>
+                      <ul class="submenu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog_details.html">Blog Details</a></li>
+                        <li><a href="elements.html">Elements</a></li>
+                      </ul>
+                    </li> -->
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- Header-btn -->
+              <div class="header-btns d-none d-lg-block f-right">
+                <a href="#" class="btn header-btn">Contact Us</a>
+              </div>
+              <!-- Mobile Menu -->
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <!-- Header End -->
+    </header>
+    <main>
+      <!--? slider Area Start-->
+      <div class="slider-area">
+        <div class="slider-active dot-style">
+          <!-- Single Slider -->
+          <div
+            class="single-slider slider-height hero-overly d-flex align-items-center mySlides"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                  <div class="hero__caption">
+                    <span data-animation="fadeInLeft" data-delay=".4s"
+                      >Welcome To</span
+                    >
+                    <h1 data-animation="fadeInLeft" data-delay=".6s">
+                      MALLETS
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Slider -->
+          <div
+            class="single-slider slider-height hero-overly d-flex align-items-center mySlides"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                  <div class="hero__caption">
+                    <span data-animation="fadeInLeft" data-delay=".4s"
+                      >Welcome to Mallets</span
+                    >
+                    <h1 data-animation="fadeInLeft" data-delay=".6s">
+                      Luxury Furniture and Design
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="single-slider slider-height hero-overly d-flex align-items-center mySlides"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                  <div class="hero__caption">
+                    <span data-animation="fadeInLeft" data-delay=".4s"
+                      >Welcome to Mallets</span
+                    >
+                    <h1 data-animation="fadeInLeft" data-delay=".6s">adsd</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Video icon -->
+        <!-- <div class="video-icon">
+          <a
+            class="popup-video btn-icon"
+            href="https://www.youtube.com/watch?v=1aP-TXUpNoU"
+            ><i class="fas fa-play"></i
+          ></a>
+        </div> -->
+      </div>
+      <!-- slider Area End-->
+      <!--? our info Start -->
+      <!-- <div
+        class="our-info-area pt-170 pb-100 section-bg"
+        data-background="assets/img/gallery/section_bg02.jpg"
+      >
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="single-info mb-60">
+                <div class="info-caption">
+                  <h4>Clean and Services</h4>
+                  <p>
+                    For each project we establish relationships with partners
+                    who we know will help us.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="single-info mb-60">
+                <div class="info-caption">
+                  <h4>Clean and Modern</h4>
+                  <p>
+                    For each project we establish relationships with partners
+                    who we know will help us.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="single-info mb-60">
+                <div class="info-caption">
+                  <h4>Clean and Modern</h4>
+                  <p>
+                    For each project we establish relationships with partners
+                    who we know will help us.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- Our Info start -->
+      <!--? Professional Services Start -->
+      <div
+        class="professional-services section-bg d-none d-md-block"
+        data-background="assets/img/gallery/section_bg04.jpg"
+      ></div>
+      <div class="profession-caption">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-8">
+              <!-- Section Tittle -->
+              <div class="section-tittle profession-details">
+                <!-- <span>Our Professional Services</span> -->
+                <h2>Our Aim</h2>
+                <p>
+                  MALLETS maintains the highest ethical standards when
+                  conducting business. We respect the laws of countries in which
+                  we manufacturer, purchase, and offer our products. It is in
+                  following these principles that we insist that our suppliers
+                  implement and maintain these same standards. Our suppliers are
+                  responsible for monitoring and adhering to the Code of Conduct
+                  as well as their supply chains and any third parties with whom
+                  they do business.
+                </p>
+                <p></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="#" class="btn btn3">Discover More About Ous</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Professional Services End -->
+      <!-- our info End -->
+      <!--? Services Ara Start -->
+      <div class="services-area section-padding3">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="cl-xl-7 col-lg-8 col-md-10">
+              <!-- Section Tittle -->
+              <div class="section-tittle text-center mb-70">
+                <!-- <span>Our Professional Services</span> -->
+                <h2>Our Craftmanship</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="single-services mb-200">
+                <div class="services-img">
+                  <img src="assets/img/gallery/services1.png" alt="" />
+                </div>
+                <div class="services-caption">
+                  <h3><a href="services.html">Stone Craving</a></h3>
+                  <p class="pera1"></p>
+                  <p class="pera2"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="single-services mb-200">
+                <div class="services-img">
+                  <img src="assets/img/gallery/services2.png" alt="" />
+                </div>
+                <div class="services-caption">
+                  <h3><a href="services.html">Clay Modeling</a></h3>
+                  <p class="pera1"></p>
+                  <p class="pera2"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="single-services mb-200">
+                <div class="services-img">
+                  <img src="assets/img/gallery/services3.png" alt="" />
+                </div>
+                <div class="services-caption">
+                  <h3><a href="services.html">Furniture</a></h3>
+                  <p class="pera1"></p>
+                  <p class="pera2"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Services Ara End -->
+      <!--? Gallery Area Start -->
+      <div class="gallery-area">
+        <div class="container-fluid p-0 fix">
+          <div class="row">
+            <div class="col-xl-6 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery1.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Furniture</span>Chairs</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery2.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Furniture</span>Tables</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery3.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Intorior</span>Design</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery4.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Intorior</span>Tables</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery5.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Luxury</span>Compartment</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-4 col-md-6">
+              <div class="single-gallery mb-30">
+                <div
+                  class="gallery-img"
+                  style="background-image: url(assets/img/gallery/gallery6.png)"
+                ></div>
+                <div class="thumb-content-box">
+                  <div class="thumb-content">
+                    <h3><span>Intorior</span>Design</h3>
+                    <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- SCRIPTS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/vegas.min.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/custom.js"></script>
+      <section class="wantToWork-area w-padding2">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-xl-8 col-lg-8 col-md-8">
+              <div class="wantToWork-caption wantToWork-caption2">
+                <h2>Have any questions? Feel free to reach out to us.</h2>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3">
+              <a href="#" class="btn btn-black f-right">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Want To work End -->
+    </main>
+    <footer>
+      <!--? Footer Start-->
+      <div class="footer-area footer-bg">
+        <div class="container">
+          <div class="footer-top footer-padding">
+            <div class="row d-flex justify-content-between">
+              <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
+                <div class="single-footer-caption mb-50">
+                  <!-- logo -->
+                  <div class="footer-logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo2_footer.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p class="info1">
+                        MALLETS maintains the highest ethical standards when
+                        conducting business.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="footer-number">
+                    <h4><span>91 </span>9999999999</h4>
+                    <p>malletsFurniture@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-2 col-md-5 col-sm-6"></div>
+              <!-- Instagram -->
+              <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Useful Links</h4>
+                  </div>
+                  <div class="footer-cap">
+                    <p>Home</p>
+                    <p>About Us</p>
+                  </div>
+                  <div class="footer-cap">
+                    <p>Our Work</p>
+                    <p>Contact Us</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-xl-9 col-lg-8">
+                <div class="footer-copy-right">
+                  <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved | This template is made with
+                    <i class="fa fa-heart" aria-hidden="true"></i> by
+                    <a href="" target="_blank">Nikhil</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4">
+                <!-- Footer Social -->
+                <div class="footer-social f-right">
+                  <span>Follow Us</span>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/sai4ull"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
